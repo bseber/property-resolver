@@ -1,0 +1,15 @@
+{
+  "name": "property-resolver",
+  "description": "resolves the given path when eventually called with an object",
+  "author": "Benjamin Seber",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha property-resolver.spec.js",
+    "test-w": "./node_modules/.bin/mocha --watch --reporter min property-resolver.spec.js"
+  },
+  "devDependencies": {
+    "expect": "^1.3.0",
+    "mocha": "^2.1.0"
+  }
+}
